@@ -1,0 +1,500 @@
+    6  cd repository/
+    7  ll
+    8  ls
+    9  cd ~/projetos/
+   10  ls
+   11  cd ConsultaMedica/
+   12  ls
+   13  ls -lah 
+   14  cd ..
+   15  ll
+   16  ls
+   17  ll
+   18  ll
+   19  cd salussite/
+   20  ls
+   21  cd ..
+   22  tar -cvf salus.tar salussite/
+   23  ls
+   24  rm -rf salus.tar 
+   25  cd salussite/
+   26  ls
+   27  ll
+   28  ll
+   29  cd /Users/marcelooldoni/DesenvDB1/NPS/ApiSeguranca/ApiSeguranca
+   30  ls
+   31  cd DesenvDB1/
+   32  ls
+   33  cd NPS/
+   34  ls
+   35  docker run -d --name db -p 49160:22 -p 49161:1521 -e ORACLE_ALLOW_REMOTE=true wnameless/oracle-xe-11g
+   36  ssh marcelo@192.168.0.100
+   37  ssh marcelo@192.168.0.100
+   38  ssh root@192.168.0.100 -p 49160
+   39  cd ~
+   40  pwd
+   41  cd Downloads/
+   42  ls
+   43  scp VM_INOVA.ova marcelo@192.168.0.100:/home/marcelo/
+   44  ssh oracle@localhost -p 4921
+   45  scp marcelo@192.168.0.100:/home/marcelo/Downloads/ojdbc14.jar ojdbc14.jar
+   46  ls
+   47  pwd
+   48  mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14  -Dversion=10.2.0.4.0 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Downloads/ojdbc14.jar
+   49  ll
+   50  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+   51  clear
+   52  ssh root@192.168.0.100 -p 49160
+   53  ifconfig 
+   54  history
+   55  mvn install:install-file -DgroupId=Geen -DartifactId=IdentidadeVisual  -Dversion=1.2 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Downloads/IdentidadeVisual-1.2.jar
+   56  mvn install:install-file -DgroupId=Geen -DartifactId=IdentidadeVisual  -Dversion=1.2 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Downloads/IdentidadeVisual-1.2.jar
+   57  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+   58  clear
+   59  ssh root@192.168.0.100 -p 49160
+   60  ifconfig 
+   61  history
+   62  mvn install:install-file -DgroupId=Geen -DartifactId=IdentidadeVisual  -Dversion=1.2 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Downloads/IdentidadeVisual-1.2.jar
+   63  mvn install:install-file -DgroupId=Geen -DartifactId=IdentidadeVisual  -Dversion=1.2 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Downloads/IdentidadeVisual-1.2.jar
+   64  cd DesenvDB1/NPS/
+   65  ls
+   66  cd DES1204/DES1204/
+   67  mvn
+   68  mvn version
+   69  mvn --version
+   70  cd DES1204-web/
+   71  ls
+   72  mvn clean 
+   73  mvn package install
+   74  mvn package install
+   75  mvn --version
+   76  ssh marcelo@192.168.0.100
+   77  cd ~
+   78  cd Downloads/
+   79  ls
+   80  pwd
+   81  projetosDB1
+   82  projetoDB1
+   83  cd ..
+   84  ls
+   85  ll
+   86  cd DesenvDB1/NPS/DES1204/
+   87  ls
+   88  cd DES1204/
+   89  ls
+   90  mvn clean package install
+   91  pylint_path
+   92  echo $pylint_path
+   93  ls
+   94  ll
+   95  ls
+   96  cd ~
+   97  ls
+   98  cd Downloads/
+   99  ls
+  100  chmod +x fmw_12.1.3.0.0_wls.jar 
+  101  java -jar fmw_12.1.3.0.0_wls.jar 
+  102  ls
+  103  cd .ssh/
+  104  ls
+  105  scp gclound.pub marcelo@192.168.0.100:/home/marcelo/
+  106  scp gclound.pub marcelo@192.168.0.100:/home/marcelo/
+  107  ll
+  108  ifconfig 
+  109  ll
+  110  cd ..
+  111  ls
+  112  ll
+  113  ifconfig -a
+  114  pwd
+  115  ping 192.168.0.100
+  116  brew install openssh
+  117  brew search ssh
+  118  brew search nmap
+  119  brew install install
+  120  brew --help
+  121  brew search nmap
+  122  https://www.dropbox.com/s/7r4m6ogmt0ugd78/xps-desenv.pem?dl=0https://www.dropbox.com/s/7r4m6ogmt0ugd78/xps-desenv.pem?dl=
+  123  ls
+  124  ssh -i ~/Dropbox/xps-desenv.pem 192.168.0.100
+  125  ssh -i ~/Dropbox/xps-desenv.pem marcelo@192.168.0.100
+  126  cd ~/.ssh/
+  127  ls
+  128  mv ~/Dropbox/xps-desenv.pem .
+  129  ll
+  130  chmod 400 xps-desenv.pem 
+  131  ssh -i ~/Dropbox/xps-desenv.pem marcelo@192.168.0.100
+  132  ssh -i xps-desenv.pem marcelo@192.168.0.100
+  133  ls
+  134  rm xps-desenv.pem 
+  135  ls
+  136  mv ~/Dropbox/xps-desenv.pem .
+  137  ll
+  138  ssh -i xps-desenv.pem marcelo@192.168.0.100
+  139  chmod 400 xps-desenv.pem 
+  140  chmod 400 xps-desenv.pem 
+  141  ssh -i xps-desenv.pem marcelo@192.168.0.100
+  142  ssh -i xps-desenv.pem marcelo@192.168.0.100
+  143  ssh -i xps-desenv.pem marcelo@192.168.0.100
+  144  ls
+  145  cd ~/VirtualBox\ VMs/win7/
+  146  ls
+  147  VBoxManage internalcommands sethduuid Windows7-64bits.vhd 
+  148  history 
+  149  history | grep ssh
+  150  ssh -i gcloud.pub  oldoni@8.34.218.78
+  151  ssh -i ~/.ssh/gclound oldoni@8.34.218.78
+  152  ping 192.168.0.100
+  153  ifconfig
+  154  ifconfig
+  155  pip
+  156  pip install pylint
+  157  pip install --upgrade pip
+  158  pip install pylint --upgrade
+  159  pip2 install pylint --upgrade
+  160  pip2 install --upgrade pip
+  161  pip2 install pylint --upgrade
+  162  cd /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+  163  ls
+  164  ll
+  165  cd pylint
+  166  ls
+  167  pwd
+  168  pip install pylint --upgrade
+  169  /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pylint
+  170  cd ~/.bash_sessions/
+  171  ls
+  172  cd ..
+  173  ls
+  174  ll
+  175  atom
+  176  atom .bash_profile
+  177  export pylint_path="/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pylint"
+  178  subl
+  179  sublime
+  180  ps aux 
+  181  ps aux | grep sub
+  182  ps aux | grep sub*
+  183  ps aux | grep sub*
+  184  ls
+  185  cd DesenvDB1/NPS/DES1204/DES1204/
+  186  pwd
+  187  mvn clean isntall
+  188  mvn clean install
+  189  ll
+  190  ifconfig
+  191  pwd
+  192  mvn clean install
+  193  ~/Dropbox/primefaces-dasa.jar 
+  194  mvn install:install-file -DgroupId=br.com.dasa -DartifactId=primefaces-dasa  -Dversion=1.1.1.5587 -Dpackaging=jar -Dfile=/Users/marcelooldoni/Dropbox/primefaces-dasa.jar 
+  195  mvn clean install
+  196  mvn clean install
+  197  mvn clean install
+  198  ls
+  199  git status
+  200  git status
+  201  mvn clean install
+  202  ls
+  203  cd ../..
+  204  ls
+  205  cp DES1204/DES1204/DES1204-ear/target/DES1204-ear-1.0.ear deploy/
+  206  git status
+  207  git commit -m"alterado layout da tela incluindo gradient do Pergunta:indicação" -a
+  208  git push
+  209  git config --global push.default simple
+  210  git push
+  211  git pull
+  212  git checkout deploy/DES1204-ear-1.0.ear 
+  213  ll
+  214  git status
+  215  git stash
+  216  git status
+  217  git status
+  218  git commit -m"merge"
+  219  git status
+  220  git pull
+  221  git fetch 
+  222  git pull
+  223  git push
+  224  ls
+  225  cd DES1204/DES1204/
+  226  mvn clean install
+  227  cp DES1204-ear/target/DES1204-ear-1.0.ear ../../deploy/
+  228  ls
+  229  git status
+  230  git commit -m"novo deploy"
+  231  git commit -m"novo deploy" -a
+  232  git status
+  233  git push
+  234  git commit -m"alteraçoes layout" -a
+  235  ll
+  236  cp DES1204-ear/target/DES1204-ear-1.0.ear ../../deploy/
+  237  git commit -m"novo deploy" -a
+  238  git push
+  239  tail -f  /var/log/Juniper Networks/Logging
+  240  tail -f  /var/log/Juniper\ Networks/Logging/debuglog.log 
+  241  tail -f  /var/log/Juniper\ Networks/Logging/debuglog.log 
+  242  ls
+  243  rm -rf /var/log/Juniper\ Networks/
+  244  sudo rm -rf /var/log/Juniper\ Networks/
+  245  ls
+  246  ssh -i ~/.ssh/gclound oldoni@8.34.218.78
+  247  ifconfig
+  248  ping 130.0.0.6
+  249  launchctl load -w /Library/LaunchAgents/net.juniper.pulsetray.plist
+  250  launchctl load -w /Library/LaunchDaemons/
+  251  ping 192.168.0.1
+  252  ping 192.168.0.100
+  253  ping 192.168.0.101
+  254  pwd
+  255  ls
+  256  cd ls
+  257  ls
+  258  cd ~
+  259  ls
+  260  cd DesenvDB1/
+  261  cd NPS/
+  262  ls
+  263  git pull
+  264  git pull
+  265  git fetch -a
+  266  git pull
+  267  ls
+  268  cd DES1204/DES1204/
+  269  ls
+  270  mvn clean install 
+  271  ll
+  272  mvn clean install 
+  273  ls
+  274  cp DES1204-ear/target/DES1204-ear-1.0.ear ../../deploy/
+  275  ls
+  276  cd ../../
+  277  ls
+  278  git commit -a -m"alterações pediadas por e-mail"
+  279  git push 
+  280  ls
+  281  ifconfig
+  282  ping 192.168.0.102
+  283  ifconfig
+  284  tail -f /var/log/system.log /var/log/authd.log
+  285  /bin/echo
+  286   (clear; '/Applications/Splunk/bin/splunk' ftr --accept-license || touch "/tmp/splunk_start_failed_5157"); rm "/tmp/splunk_start_running_13198" 
+  287  /bin/echo
+  288   (clear; '/Applications/Splunk/bin/splunk' start || touch "/tmp/splunk_start_failed_12488"); rm "/tmp/splunk_start_running_27447" 
+  289  ping 192.168.0.102
+  290  clear
+  291  ssh marcelo@192.168.0.102
+  292  ssh marcelo@192.168.0.102
+  293  ssh marcelo@192.168.0.102
+  294  ssh marcelo@192.168.0.1002
+  295  ssh marcelo@192.168.0.102
+  296  ssh marcelo@192.168.0.102
+  297  ssh marcelo@192.168.0.102
+  298  ls
+  299  cd ~
+  300  ls
+  301  cd Documents/
+  302  ls
+  303  scp win7.ova marcelo@192.168.0.102:/media/marcelo/OS/desenvEnvoriment/
+  304  scp win7.ova marcelo@192.168.0.102:/media/marcelo/OS/desenvEnvoriment/
+  305  ping 192.168.0.102
+  306  scp win7.ova marcelo@192.168.0.102:/media/marcelo/OS/desenvEnvoriment/
+  307   splunk edit user admin -password splunk -role admin -auth admin:changeme
+  308  whereis spluk
+  309  cd /Applications/
+  310  ls
+  311  cd..
+  312  ls
+  313  cd ..
+  314  ls
+  315  ll
+  316  cd bin/
+  317  ls
+  318  ll
+  319  cd ..
+  320  ls
+  321  ll
+  322  cd etc/
+  323  ls
+  324  ll
+  325  ll
+  326  cd ..
+  327  ll
+  328  cd Users/marcelooldoni/.splunk/
+  329  ls
+  330  ll
+  331  sudo pip install psycopg2
+  332  pip install psycopg2
+  333  hostname
+  334  tail -f /var/log/authd.log /var/log/system.log
+  335  tail -f /var/log/system.log
+  336  tail -f /var/log/system.log
+  337  ls
+  338  cd ~/VirtualBox\ VMs/
+  339  ls
+  340  ls
+  341  cd win7/
+  342  ls
+  343  ll
+  344  ls
+  345  ll
+  346  scp Windows7-64bits.vhd marcelo@192.168.0.102:/media/marcelo/OS/desenvEnvoriment/
+  347  ls
+  348   (clear; '/Applications/Splunk/bin/splunk' start || touch "/tmp/splunk_start_failed_22374"); rm "/tmp/splunk_start_running_2035" 
+  349  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/Downloads/localhost.cert
+  350  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain
+  351  sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ~/Downloads/localhost.cert
+  352  ps aux
+  353  ps aux | grep sub
+  354  ps aux
+  355  ps aux | grep sub
+  356  ps aux | grep Sublime
+  357  kill -9 2121 2119
+  358  /bin/echo
+  359   (clear; '/Applications/Splunk/bin/splunk' start || touch "/tmp/splunk_start_failed_18179"); rm "/tmp/splunk_start_running_30866" 
+  360  ll
+  361  ll
+  362  clear
+  363  docker
+  364  ping 192.168.0.101
+  365  ssh marcelo@192.168.0.101
+  366  /bin/echo
+  367   (clear; '/Applications/Splunk/bin/splunk' start || touch "/tmp/splunk_start_failed_27653"); rm "/tmp/splunk_start_running_21915" 
+  368  /Users/marcelooldoni/Library/Application\ Support/Steam/steamapps/common/The\ Incredible\ Adventures\ of\ Van\ Helsing/VanHelsing ; exit;
+  369  ping 192.168.0.1
+  370  ping 192.168.0.101
+  371  ping 192.168.0.100
+  372  ping 192.168.0.100
+  373  ssh marcelo@192.168.0.101
+  374  ssh marcelo@192.168.0.100
+  375  ssh root@192.168.0.100
+  376  ping 192.168.0.102
+  377  ping 192.168.0.102
+  378  ping 192.168.0.100
+  379  ifconfig
+  380  ping 192.168.0.100
+  381  ssh root@192.168.0.100
+  382  ssh root@192.168.0.100
+  383  cd /
+  384  ll
+  385  cd Volumes/ZTEMODEM/
+  386  ls
+  387  cd Linux/
+  388  ls
+  389   scp marcelo@192.168.0.100:/home/marcelo/ VivoBra_LinuxUI.tar.gz 
+  390   scp marcelo@192.168.0.100:/home/marcelo/VivoBra_LinuxUI.tar.gz  VivoBra_LinuxUI.tar.gz 
+  391  ping 192.168.0.100
+  392   scp marcelo@192.168.0.100:/home/marcelo/VivoBra_LinuxUI.tar.gz  VivoBra_LinuxUI.tar.gz 
+  393   scp VivoBra_LinuxUI.tar.gz marcelo@192.168.0.100:/home/marcelo/VivoBra_LinuxUI.tar.gz
+  394  clear
+  395  tail -f /var/log/system.log
+  396  subl /Users/marcelooldoni/Library/Logs/DiagnosticReports/VanHelsing_2016-08-09-092437_marcelo-mac.crash      
+  397  sublime.app /Users/marcelooldoni/Library/Logs/DiagnosticReports/VanHelsing_2016-08-09-092437_marcelo-mac.crash      
+  398  vi /Users/marcelooldoni/Library/Logs/DiagnosticReports/VanHelsing_2016-08-09-092437_marcelo-mac.crash      
+  399  projetos
+  400  cd hackeranck/
+  401  ls
+  402  cd hackeranck_javaEE/
+  403  ls
+  404  rm -rf *.eml *.iml
+  405  ll -lah 
+  406  rm -rf .*
+  407  ll -lah 
+  408  pip
+  409  pip -v
+  410  pip -V
+  411  pip install pyenv
+  412  sudo pip install pyenv
+  413  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+  414  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+  415  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+  416  echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+  417  exec $SHELL
+  418  pyenv versions
+  419   source ~/.bash_profile
+  420  echo $PATH /Users/marcelooldoni/.pyenv/shims:/Users/marcelooldoni/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin/
+  421  echo $PYENV_ROOT /Users/marcelooldoni/.pyenv
+  422  pyenv versions
+  423  pyenv install 3.5.2
+  424  pyenv
+  425  brew -v
+  426  brew -h
+  427  brew update
+  428  sudo brew update
+  429  sudo brew upgrade
+  430  cd /usr/local/
+  431  git status
+  432  git reset --hard && git clean -df
+  433  git status
+  434  brew doctor
+  435  sudo brew doctor
+  436  sudo brew update
+  437  sudo brew upgrade
+  438  pwd
+  439  quit
+  440  exit
+  441  tail -f /var/log/
+  442  tail -f /var/log/system.log 
+  443  cd /Users/marcelooldoni/projetos/ansible-django-stack
+  444  ls
+  445  brew install pyenv
+  446  sudo brew install pyenv
+  447  history > history.log
+  448  xcode-select --install
+  449  gcc --version
+  450  /usr/bin/curl --version
+  451  sudo brew fetch pyenv -v
+  452  sudo brew install pyenv
+  453  export PYENV_ROOT=/usr/local/var/pyenv 
+  454  brew upgrade pyenv
+  455  eval "$(pyenv init -)";
+  456  sudo eval "$(pyenv init -)";
+  457  sudo brew install pyenv
+  458  sudo brew upgrade
+  459  /usr/bin/curl --version
+  460  brew fetch gettext -v
+  461  sudo brew fetch gettext -v
+  462  sudo brew fetch gradle -v
+  463  sudo brew upgrade
+  464  pip install ipython[notebook]
+  465  ipython
+  466  ipython notebook
+  467  projetos
+  468  cd wttd/
+  469  ls
+  470  python -m venv .wttd
+  471  python
+  472  python3 -m venv .wttd
+  473  ll
+  474  pyenv -V
+  475  pyenv -v
+  476  source .wttd/bin/activate
+  477  pipi install django 
+  478  pip install django 
+  479  wich python
+  480  which python
+  481  pip install django
+  482  pip install numpy
+  483  pip install pip
+  484  pip install --upgrade pip
+  485  pip install --upgrade pip
+  486  pip install django
+  487  pyenv install python 3.5
+  488  pyenv install python==3.5
+  489  pyenv install --list
+  490  pyenv install 3.5.0
+  491  pyenv install 3.5.0
+  492  pyenv install django
+  493  pip install django
+  494  vagrant 
+  495  vagrant version
+  496  brew update vagrant
+  497  brew upgrade vagrant
+  498   pip install django==1.8.9
+  499   pip install django==1.8.7
+  500  reboot
+  501  ls
+  502  ll
+  503  git init
+  504  hsitorry > local.txt
+  505  history > local.txt
